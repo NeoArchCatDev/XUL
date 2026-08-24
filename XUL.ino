@@ -3,7 +3,7 @@
 #include <ArduinoJson.h>
 #include <EEPROM.h>
 
-USBRename usbRename = USBRename("X.U.L", "NeoArchCat7", "0001");
+USBRename usbRename = USBRename("X.U.L", "NeoArchCatDev", "0001");
 
 #define NUM_FADERS 3
 #define RAW_THRESHOLD 4      // Threshold for raw value change
